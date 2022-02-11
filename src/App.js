@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Setup from './tutorial/2-useEffect/1-useEffect-basics'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Setup />
     </div>
-  );
+  )
 }
 
-export default App;
+/**
+ * 无状态组件 (函数)
+ * 有状态组件 (类)
+ */
+
+export default App
